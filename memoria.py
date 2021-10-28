@@ -38,6 +38,10 @@ def tap(x, y):
         hide[spot] = False
         hide[mark] = False
         state['mark'] = None
+        
+    if (hide == [False]*64):
+        print("Todos los cuadros fueron destapados")
+        done()
 
 def draw():
     "Draw image and tiles."
