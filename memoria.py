@@ -130,9 +130,9 @@ def draw():
     if mark is not None and hide[mark]:
         x, y = xy(mark)
         up()
-        goto(x + 26, y+6)
+        goto(x + 26, y+16)
         color('black')
-        write(tiles[mark], font=('Arial', 30, 'normal'),align='center')
+        write(tiles[mark], font=('Arial', 9, 'normal'),align='center')
 
     update()
     ontimer(draw, 100)
