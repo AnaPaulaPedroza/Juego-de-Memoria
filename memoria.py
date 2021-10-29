@@ -3,7 +3,73 @@ from turtle import *
 from freegames import path
 
 car = path('car.gif')
-tiles = list(range(32)) * 2
+
+tiles = '''Kinder
+Kit-kat
+M&Ms
+Toblerone
+Twix
+Snickers
+Milky Way
+Hershey's
+Crunch
+Reese's
+Ferrero
+CarlosV
+Turin 
+Whoppers
+Kisses
+Skittles
+Duvalín
+Nutella
+Bubulubu
+Kranky
+Bocadín
+Pulparindo
+Tamborines
+Skwinkles
+Pelonetes
+Lucas Muecas
+Golos
+Rockaleta
+Panditas
+Sour Patch
+Ring Pop
+Nerds
+Winis
+Checolines
+Mamut
+Mars
+Freskas
+Mazapán
+Lunetas
+Mui-Bon
+Larín
+Monedas
+Trufas
+Pelonazo 
+Picafresa
+Twizzlers
+Miguelito
+Crazy Dips
+Pingüinos
+Jelly Belly
+Paleta Payaso
+3 Muskeeters
+Glorias
+Rellerindos
+Push Pop
+Brinquitos
+Milk Duds
+Jolly Rancher
+Butterfinger
+Sandi Brochas
+Tootsie Roll
+Dots
+Airheads
+Baby Ruth'''
+
+tiles = tiles.split('\n')
 state = {'mark': None}
 hide = [True] * 64
 totalTaps = 0
@@ -72,7 +138,8 @@ def draw():
     ontimer(draw, 100)
 
 shuffle(tiles)
-setup(420, 420, 370, 0)
+setup(450, 450, 0, 0)
+bgcolor('#F3E5AB')
 addshape(car)
 hideturtle()
 tracer(False)
