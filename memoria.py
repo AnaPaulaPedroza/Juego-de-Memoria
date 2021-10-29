@@ -73,8 +73,6 @@ tiles = tiles.split('\n')
 state = {'mark': None}
 hide = [True] * 64
 totalTaps = 0
-writer = Turtle(visible = False)
-
 
 def square(x, y):
     "Draw white square with black outline at (x, y)."
