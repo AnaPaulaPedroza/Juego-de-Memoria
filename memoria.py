@@ -21,7 +21,7 @@ Whoppers
 Kisses
 Skittles
 Duvalín
-Nutella
+Mazapán
 Bubulubu
 Kranky
 Bocadín
@@ -29,45 +29,45 @@ Pulparindo
 Tamborines
 Skwinkles
 Pelonetes
-Lucas Muecas
+Winis
 Golos
 Rockaleta
 Panditas
 Sour Patch
-Ring Pop
-Nerds
-Winis
-Checolines
 Mamut
-Mars
-Freskas
+Nerds
+Kinder
+Kit-kat
+M&Ms
+Toblerone
+Twix
+Snickers
+Milky Way
+Hershey's
+Crunch
+Reese's
+Ferrero
+CarlosV
+Turin 
+Whoppers
+Kisses
+Skittles
+Duvalín
 Mazapán
-Lunetas
-Mui-Bon
-Larín
-Monedas
-Trufas
-Pelonazo 
-Picafresa
-Twizzlers
-Miguelito
-Crazy Dips
-Pingüinos
-Jelly Belly
-Paleta Payaso
-3 Muskeeters
-Glorias
-Rellerindos
-Push Pop
-Brinquitos
-Milk Duds
-Jolly Rancher
-Butterfinger
-Sandi Brochas
-Tootsie Roll
-Dots
-Airheads
-Baby Ruth'''
+Bubulubu
+Kranky
+Bocadín
+Pulparindo
+Tamborines
+Skwinkles
+Pelonetes
+Winis
+Golos
+Rockaleta
+Panditas
+Sour Patch
+Mamut
+Nerds'''
 
 tiles = tiles.split('\n')
 state = {'mark': None}
